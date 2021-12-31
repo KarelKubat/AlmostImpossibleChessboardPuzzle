@@ -35,7 +35,11 @@ func main() {
 // run solves one puzzle. The argument is whether to print on stdout the initial board, checksum, what to flip,
 // and the flipped board. That may be illustrative for a single run.
 func run(beVerbose bool) error {
-	org := board.New(boardSize).Randomize()
+	org, err := board.New(boardSize)
+	if err != nil {
+		return err
+	}
+	org.Randomize()
 	diff := org.Checksum() ^ org.KeyPosition()
 	flipped := org.Clone()
 	flipped.Flip(diff)
