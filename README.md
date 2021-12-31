@@ -14,7 +14,9 @@ The warden now tells you to point at one of the coins. You must do so, or you'll
 
 As a preparation, you and your friend have all the time you need to come up with a strategy to beat the warden. Your strategy may be arbitrarily complex and if that's the case then you may write down instructions so you don't get confused during the actual test. But be aware that the warden hears whatever you discuss, sees your written instructions (if these exist), and he'll do his best to defeat your plans. After all, he gets to choose the location of the key and the orientation of all coins.
 
-Relevant links:
+The above text is my description of the problem. There may be other textual representations, but if you're here then you probably already know of the puzzle anyway.
+
+Here are some relevant links where you can find out more about the puzzle:
 - The puzzle description, by Matt Parker: https://www.youtube.com/watch?v=as7Gkm7Y7h4
 - 3Blue1Brown's explanation: https://www.youtube.com/watch?v=wTJI_WuZSwE, involving hypercubes and corner coloring
 - The solution explained by Kjell-Olov Högdahl: https://www.youtube.com/watch?v=ZtfhkH9H0V8 - a thorough description of the encoding and decoding of a board state into a checksum
@@ -172,3 +174,5 @@ That's the tile Bob wants to get uncovered. Whee! Found the key!
     - `board.Flip(p int)` using which you ask the warden to flip one of the coins.
   - The functions that your friend needs as second prisoner:
     - `board.Checksum()` to compute the checksum again, now that a coin is flipped.
+
+These aren't the best Go sources that I wrote. There are no tests, and the simulation is not optimized for speed. Because that was not the purpose - I just wanted to see the algorithm at work. If you have improvements (maybe colored output, maybe animations) then feel free to contact me.
