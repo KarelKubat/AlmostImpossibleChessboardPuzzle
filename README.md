@@ -2,19 +2,19 @@
 
 ## What's the puzzle?
 
-You and a friend are in prison and (of course) there is warden who likes to torture you with puzzles. This time he's come up with something really special. If you solve this puzzle then he'll set you both free! But the puzzle is really hard.
+> You and a friend are in prison and (of course) there is warden who likes to torture you with puzzles. This time he's come up with something really special. If you solve this puzzle then he'll set you both free! But the puzzle is really hard.
+>
+> The warden has prepared a special chessboard for this puzzle. It's a regular 8x8 board but elevated: the tiles are on top of 10cm high boxes. That's because the tiles are actually little covers that be lifted. Underneath each cover is a little hollow space. You can think of this as 64 little containers, each covered with a lid and arranged in an 8x8 matrix.
+>
+> The warden will let you into a room the chessboard. He'll then place a key into one of the containers, underneath one of the tiles of the board. He gets to choose which one and you get to see which tile he chooses. After that he'll distribute coins on top of the chessboard; either heads up or tails up. The warden gets to choose which side is up. Maybe he has a pattern that he follows, or maybe he randomizes which side is up. It's up to him to do decide.
+>
+> So, at this point the key is under one of the tiles and you know which one. The tiles are all covered with coins, either heads up or tails up.
+>
+> The warden now tells you to point at one of the coins. You must do so, or you'll fail the puzzle. The one coin that you point out is then flipped. After that he escorts you out of the room. Once you're gone he invites your friend in. If your friend correctly guesses where the key is, you're both free to go!
+>
+> As a preparation, you and your friend have all the time you need to come up with a strategy to beat the warden. Your strategy may be arbitrarily complex and if that's the case then you may write down instructions so you don't get confused during the actual test. But be aware that the warden hears whatever you discuss, sees your written instructions (if these exist), and he'll do his best to defeat your plans. After all, he gets to choose the location of the key and the orientation of all coins.
 
-The warden has prepared a special chessboard for this puzzle. It's a regular 8x8 board but elevated: the tiles are on top of a 10cm high box. That's because the tiles are actually little covers that be lifted. Underneath each cover is a little hollow space. You can think of this as 64 little containers, each covered with a lid and arranged in an 8x8 matrix.
-
-The warden will let you into a room the chessboard. He'll then place a key into one of the containers, underneath one of the tiles of the board. He gets to choose which one and you get to see which tile he chooses. After that he'll distribute coins on top of the chessboard; either heads up or tails up. The warden gets to choose which side is up. Maybe he has a pattern that he follows, or maybe he randomizes which side is up. It's up to him to do decide.
-
-So, at this point the key is under one of the tiles and you know which one. The tiles are all covered with coins, either heads up or tails up.
-
-The warden now tells you to point at one of the coins. You must do so, or you'll fail the puzzle. The one coin that you point out is then flipped. After that he escorts you out of the room. Once you're gone he invites your friend in. If your friend correctly guesses where the key is, you're both free to go!
-
-As a preparation, you and your friend have all the time you need to come up with a strategy to beat the warden. Your strategy may be arbitrarily complex and if that's the case then you may write down instructions so you don't get confused during the actual test. But be aware that the warden hears whatever you discuss, sees your written instructions (if these exist), and he'll do his best to defeat your plans. After all, he gets to choose the location of the key and the orientation of all coins.
-
-The above text is my description of the problem. There may be other textual representations, but if you're here then you probably already know of the puzzle anyway.
+*The above text is my description of the problem. There may be other textual representations, but since you're here then you probably already know of the puzzle anyway.*
 
 Here are some relevant links where you can find out more about the puzzle:
 - The puzzle description, by Matt Parker: https://www.youtube.com/watch?v=as7Gkm7Y7h4
