@@ -69,7 +69,7 @@ The warden has prepared this board:
           -       T       T       -       T       -       -       -
 ```
 
-You've got your 8x8 tiles and each tile shows its overall position (0..63), but also as a string of bits (`000000`..`111111`). The value of the coin on top of the tile is shown as `T` for tails and `-` for heads. The tile under which the key is hidden is indicated by `Key`. I chose to encode a board state into a checksum by summing the tile numbers under a tail (or `T` for true?) while ignoring heads. (The other way around would of course work just as well.)
+You've got your 8x8 tiles and each tile shows its overall position (0..63), but also as a string of bits (`000000`..`111111`). For an 8x8 board we need 6 bits to describe the positions: there are 64 tiles, which is 2^6, so six bits. The value of the coin on top of the tile is shown as `T` for tails and `-` for heads. The tile under which the key is hidden is indicated by `Key`. I chose to encode a board state into a checksum by summing the tile numbers under a tail (or `T` for true?) while ignoring heads. (The other way around would of course work just as well.)
 
 Next are the actions of the two players, who are called (of course, typically) Alice and Bob. Alice witnesses where the warden has hidden the key, computes a checksum, and thereby derives what coin to flip.
 
